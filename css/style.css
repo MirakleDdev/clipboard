@@ -1,0 +1,84 @@
+*{margin: 0; padding: 0;}
+body{background-image: url(../img/bg-header-desktop.png); background-repeat: no-repeat; font-family: Bai Jamjuree; 
+    font-size: 18px; background-size: cover; font-family: 'Bai Jamjuree', sans-serif;}
+.first{
+    text-align: center;
+}
+.logoimg{margin: 70px;} .logo{margin-top: 100px;}
+.toptext{width: 60%; margin: auto;}
+h1{margin: 40px; font-size: 2.8em; color: rgb(83, 83, 83);} p{margin: 40px; font-size: 1.5em; color: rgb(190, 190, 190);}
+button{ padding: 1.4em 1.4em; width: 18em; margin: 0.7em; border-radius: 2em; margin-top: 35px; font-family: 'Bai Jamjuree', sans-serif;}
+.green{
+    border: 1px thick hsl(171, 66%, 44%); 
+    background-color: hsl(171, 66%, 44%); 
+    color: white; 
+    border-color: hsl(171, 66%, 44%);
+} 
+.blue{
+    border: 1px thick hsl(233, 100%, 69%); 
+    background-color: hsl(233, 100%, 69%); 
+    color: white; 
+    border-color: hsl(233, 100%, 69%);
+}
+.second header, .third header, .fourth header{text-align: center; width: 55%; margin: auto;}
+.snipp, .clipp{margin-top: 100px;}
+.snip, .clip{font-size: 1.2em;}
+.main{display: flex; justify-content: space-between; flex-wrap: wrap; margin-top: 100px;}
+.simg{width: 60%;} .snimg{width: 100%;} .stext{width: 25%; margin-right: 120px; line-height: 30px; margin-top: 50px;}
+h3{margin-top: 50px;}
+.cimg{width: 100%;}
+.main2{display: flex; justify-content: center; width: 60%; margin: auto;}
+.logos1, .logos2{
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.cb{width: 30%;} .pts{width: 30%;} .sp{width: 30%;}
+.fifth{text-align: center;} .text5{width: 60%; margin: auto;}
+i{padding: 10px; margin: 10px; color: black;}
+.last{
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+    line-height: 30px;
+    font-size: 20px;
+}
+n, c, l{color: rgb(190, 190, 190);} h2, h3{color:  rgb(83, 83, 83);}
+.llogo{
+    width: 18%;
+}
+.snd{
+    width: 20%;
+}
+.trd{
+    width: 18%;
+}
+.fth{
+    width: 18%;
+}
+.fith{
+
+    width: 20%;
+}
+
+@media screen and (max-width: 700px){
+    .logo{margin-top: 30px;} .logoimg{margin: 40px;}
+    .toptext{width: 100%;}
+    h1{margin: 20px; font-size: 1.5em;} p{margin: 20px; font-size: 0.75em;}
+    button{padding: 1em 1em; margin-top: 20px;}
+    .second header{width: 100%;}
+    .main2{width: 100%;} .cimg{width: 100%}
+    .simg{width: 100%; margin: 10px;} 
+    .stext{width: 100%; margin-right: 0px; margin-top: 20px; line-height: 20px; text-align: center; margin: 10px;}
+    .third header{width: 100%;} .clipp{margin-top: 30px;}
+    .cb, .pts, .sp{width: 100%; margin-top: 40px;} .fourth header{width: 100%;} 
+    .logos1, .logos2{padding: 40px; line-height: 30px;}
+    .logos2 img{width: 100%; margin: 30px;}
+    .text5{width: 100%;}
+    .llogo{width: 30%;} .botlog{width: 100%;} .snd, .trd, .fth, .fith{width: 100%; text-align: center;}
+    .last{line-height: 60px;} i{margin: 5px; padding: 5px;}
+}
