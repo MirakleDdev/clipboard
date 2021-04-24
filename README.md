@@ -1,2 +1,2 @@
 # clipboard
-https://mirakleddev.github.io/clipboard/index.html
+https://mimiicodes.github.io/clipboard/index.html
